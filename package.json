@@ -1,6 +1,10 @@
 {
   "name": "mi-firs-app",
   "version": "0.0.0",
+  "engines": {
+    "node": "v14.1.0",
+    "npm": "6.14.4"
+  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -8,12 +12,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --output-path MiFirsAPP.............  --aot --prod"
-  },
-  "engines": {
-    "node": "v14.1.0",
-    "npm": "6.14.4"
-  },
+    "postinstall": "ng build --output-path MiFirsAPP  --aot --prod"
+  }
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.4",
