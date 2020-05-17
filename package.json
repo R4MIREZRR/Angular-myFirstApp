@@ -13,7 +13,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --output-path MiFirsAPP  --aot --prod"
-  }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.4",
